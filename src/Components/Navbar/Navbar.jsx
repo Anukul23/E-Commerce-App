@@ -5,9 +5,12 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="seach-bar">
-      <span className='bi bi-search'></span><input type="text" placeholder='Search for rooms,guests...' />
-        
+      <input type="text" placeholder='Search for rooms,guests...' />
+      
         </div> 
+        <div className="search">
+        <span className='bi bi-search'></span>
+        </div>
         <div className="bell">
             <span className='bi bi-bell'></span>
             </div>   

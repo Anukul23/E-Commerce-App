@@ -17,6 +17,9 @@
 .seach-bar span{
     margin-left: -48px;
 }
+.search span{
+    margin-left: -36px;
+}
 .bell{
     margin-left: 551px;
 }

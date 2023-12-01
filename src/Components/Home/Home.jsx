@@ -21,7 +21,7 @@ const Home = () => {
             <p>Executive rooms</p>
             <p>Presidential Rooms</p>
             </div>  
-            <div className="friday">
+            <div className="friday-1">
                 <h4>09</h4>
                 <p>Friday</p>
                 <p><button className='btn btn-info'>7</button></p>
@@ -177,13 +177,13 @@ const Home = () => {
                <hr/>
                <div className="work-detail">
                 <div className="work-list">
-                <h5>Room Clening</h5>
+                <h5> <span className='bi bi-trash3-fill'></span>Room Clening</h5>
                 <p>Housekeeping</p>
-                <h5>Laumdry</h5>
+                <h5> <span className='bi bi-person-arms-up'></span>Lauudry</h5>
                 <p>Laundry</p>
-                <h5>Electrical Reparis</h5>
+                <h5> <span className='bi bi-wrench-adjustable'></span>Electrical Reparis</h5>
                 <p>Housekeeping</p>
-                <h5>Room Cleaning</h5>
+                <h5> <span className='bi bi-trash3-fill'></span>Room Cleaning</h5>
                 <p>Housekeeping</p>
                 </div>
                 <div className='day-list'>
@@ -203,11 +203,11 @@ const Home = () => {
                 <hr/>
                 <div className="service-details">
                     <div className="service-list">
-                    <h5>Cappuccino</h5>
+                <h5> <span className='bi bi-cup-hot-fill'></span>Cappuccino</h5>
                 <p>Ismail khan</p>
-                <h5>laundry</h5>
+                <h5> <span className='bi bi-person-arms-up'></span>laundry</h5>
                 <p>samreen</p>
-                <h5>Rented Car</h5>
+                <h5> <span className='bi bi-car-front-fill'></span>Rented Car</h5>
                 <p>Asraf siddique</p>
                 <h5>Rented Car</h5>
                 <p>Asraf siddique</p>

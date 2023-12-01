@@ -23,13 +23,13 @@
     color: orange;
 }
 .left-btn{
-    margin-left: 15px;
-    background: rgb(243, 238, 238);
-    display: block;
-    
-    width: max-content;
-    
+   position: sticky;
+   top: 270px;
+   background: rgb(245, 237, 237);
+   display: inline;
 }
+    
+
 .left-btn div button{
     border: none;
     margin-bottom: 10px;
