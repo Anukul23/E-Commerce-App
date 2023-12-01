@@ -1,0 +1,30 @@
+.navbar{
+    box-shadow: 0px 0.5px 0px 0px;
+    margin-left: 195px;
+    height: 75px;
+}
+.seach-bar{
+    margin-left: 102px;
+    
+    width: 156px;
+}
+.seach-bar input{
+    
+        width: 250px;
+        height: 37px;
+        padding: 10px;
+}
+.seach-bar span{
+    margin-left: -48px;
+}
+.bell{
+    margin-left: 551px;
+}
+.bell span{
+    margin-left: 130px;
+    font-size: 30px;
+}
+.pic span{
+    margin-right: 27px;
+    font-size: 30px;
+}

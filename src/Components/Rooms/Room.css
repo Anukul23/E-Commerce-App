@@ -1,0 +1,49 @@
+.left-panel{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+   /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+    
+
+    
+}
+.logo img{
+    width: 152px;
+    margin-bottom: 50px;
+}
+.vilaa{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: orange;
+}
+.left-btn{
+    margin-left: 15px;
+    background: rgb(243, 238, 238);
+    display: block;
+    
+    width: max-content;
+    
+}
+.left-btn div button{
+    border: none;
+    margin-bottom: 10px;
+    width: 141px;
+    height: 41px;
+    cursor: pointer;
+}
+.left-btn div span{
+    margin-left: 18px;
+}
+.dashboard button{
+    background:rgb(38, 69, 38) ;
+    color: white;
+}
+.dashboard{
+    margin-top:200px;
+}
