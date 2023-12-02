@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="seach-bar">
-      <input type="text" placeholder='Search for rooms,guests...' />
+      <input type="text" placeholder='Search for rooms,guests...' className='form-control' />
       
         </div> 
         <div className="search">

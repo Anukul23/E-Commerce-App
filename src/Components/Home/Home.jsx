@@ -2,6 +2,8 @@ import React from 'react'
 import "../Home/Home.css"
 import graph from "../Assests/graph.png"
 import feedback from "../Assests/feedback.png"
+
+
 const Home = () => {
   return (
     <div className='home-main'>
@@ -34,7 +36,7 @@ const Home = () => {
                     <div className="friday">
                 <h4>10</h4>
                 <p>saturday</p>
-                <p><button className='btn btn-danger'>7</button></p>
+                <p ><button className='btn btn-danger'>7</button></p>
                 <p><button className='btn btn-primary'>1</button></p>
                 <p><button className='btn btn-success'>3</button></p>
                 <p><button className='btn btn-info' >6</button></p> 
@@ -139,6 +141,7 @@ const Home = () => {
         </div>
         </div>
         </div>
+        <hr/>
         <div className="col-2">
         <div className="heading">
             <h4><span className='bi bi-calendar3'></span> Departures <span className='bi bi-chevron-right'></span></h4>
@@ -178,7 +181,7 @@ const Home = () => {
                <hr/>
                <div className="work-detail">
                 <div className="work-list">
-                <h5> <span className='bi bi-trash3-fill'></span>Room Clening</h5>
+                <h5> <span className='bi bi-trash3-fill'></span>Room Clening <span className='tag bi'></span></h5>
                 <p>Housekeeping</p>
                 <h5> <span className='bi bi-person-arms-up'></span>Lauudry</h5>
                 <p>Laundry</p>
@@ -224,15 +227,10 @@ const Home = () => {
                 </div>
             </div>
         </div>
-          <div className="row-4-container">
-            <div>
-                <img src={graph} alt="" />
-            </div>
-            <div>
-                <img src={feedback} alt="" />
-            </div>
-          </div>
+          
+          
          </div>
+        
   )
 }
 
