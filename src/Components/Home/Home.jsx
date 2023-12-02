@@ -7,15 +7,15 @@ const Home = () => {
     <div className='home-main'>
     <div className='home'>
         <h3>Today <span className='bi bi-chevron-left'></span> <span className='bi bi-chevron-right'></span> November 2023</h3> 
-      
+        <hr></hr>
     </div>
-<hr></hr>
+           
     
     <div className="room-details">
             
     
          <div className="rooms-catagory">
-            <p><b>Rooms</b> <span>09 <hr/></span></p>
+            <p><b>Rooms</b> <span>09 </span><hr/></p>
             <p>Standard rooms</p>
             <p>Courtyard rooms</p>
             <p>Executive rooms</p>
@@ -96,8 +96,9 @@ const Home = () => {
             <div>
                 <span className='bi bi-three-dots-vertical'></span>
             </div>
-        </div>
-        <hr/>
+            </div>
+            <hr/>
+                  
         <div className="guest-list">
         <div className="list-1">
           <ul>
@@ -172,7 +173,7 @@ const Home = () => {
         <div className='r3-container'>
             <div className="left">
              <div className="titel">
-                <h4><span className=''></span>Employee Tasks <span className=''></span></h4>
+                <h4><span className='bi bi-calendar3'></span>Employee Tasks <span className=''></span></h4>
                </div>
                <hr/>
                <div className="work-detail">
@@ -198,7 +199,7 @@ const Home = () => {
             </div>
             <div className="right">
                 <div className="titel-right">
-                    <h4> <span className=''></span>Service Request <span className=''></span></h4>
+                    <h4> <span className='bi bi-calendar3'></span>Service Request <span className=''></span></h4>
                 </div>
                 <hr/>
                 <div className="service-details">
@@ -209,7 +210,7 @@ const Home = () => {
                 <p>samreen</p>
                 <h5> <span className='bi bi-car-front-fill'></span>Rented Car</h5>
                 <p>Asraf siddique</p>
-                <h5>Rented Car</h5>
+                <h5> <span className='bi bi-car-front-fill'></span>Rented Car</h5>
                 <p>Asraf siddique</p>
                     </div>
                     <div className="servie-time">
