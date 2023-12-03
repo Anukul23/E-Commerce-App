@@ -59,10 +59,10 @@
 }
 
 .row-2{
-    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.075);
     width: 1283px;
     padding: 32px;
-    background: rgb(238, 243, 243);
+    background: #f8f9fa;
     margin-top: 20px;
     display: flex;
     /* width: 741px; */
@@ -191,8 +191,9 @@ width: 600px;
 .r3-container{
     justify-content: space-between;
     display: flex;
-    background: aliceblue;
+    background: #f8f9fa;;
     margin-top: 50px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.075);
 }
 .left{
     width: 690px;

@@ -1,12 +1,12 @@
 .left-panel{
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-   /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+    height: 100%; 
+  width: 160px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 34px;
+   
+  overflow-x: hidden; 
   padding-top: 20px;
     
 
@@ -33,7 +33,7 @@
 .left-btn div button{
     border: none;
     margin-bottom: 10px;
-    width: 141px;
+    width: 150px;
     height: 41px;
     cursor: pointer;
 }
